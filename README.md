@@ -35,7 +35,7 @@ Version 1.0: Initial release
           - Three versions of Ending2 FMV:
                - SAC retranslation of final release subtitles.
                - SAC translation of storyboard dialogue. (Upon reflection, I recommend this as the best option.)
-               - A mix-n-match of both done by ChthonVII, with a one word added.
+               - A mix-n-match of both done by ChthonVII, with one word added.
           - Ninostyle Chibi FMVs from CosmosFMV by Cosmos. (Overrides incompatibility with SYW Unified FMV.)
           - Upscaled "Five hundred years later..." overlay from AavockESUI by Aavock & Bonez.
 - UI
