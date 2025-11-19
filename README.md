@@ -13,7 +13,7 @@ Version 1.0: Initial release
 
 - 60fps fixes for Shinra Archaeology Cut
 - 30fps FMVs from SYW Unified FMV with subtitles from Shinra Archaeology Cut
-- Chibi FMVs from CosmosFMV to force compatibility with SYW Unified FMV.
+- Ninostyle chibi FMVs from CosmosFMV to force compatibility with SYW Unified FMV.
 - SNES-style ESUI button glyphs for SNES-style xinput controllers like 8bitdo
 - A new set of materia icons.
 - Some avatars from ESUI and Finishing Touch color corrected to display correctly in NTSC-J mode.
