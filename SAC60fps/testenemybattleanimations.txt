@@ -1,0 +1,16 @@
+For Test series enemies' battle animations, just duplicate and rename files from the 60FPS mod as follows:
+
+Test 0 (aa) < Guard Hound (ar)
+Test 1 (ab) < Grunt (at)
+Test 2 (ac) < Deenglow (br)
+Test 3 doesn't exist in JORG
+Test 4 (ae) < Hedgehog Pie (bc)
+Test 5 (af) < Serpent (ki)
+Test 6 (ag) < Adamantaimai (gq)
+Test 7 (ah) < Grosspanzer Big (lf)
+Test 8 (ai) < Grosspanzer Small (lg)
+Test 9 (aj) < Grosspanzer Mobile (lh)
+
+Guard Hound (ar) and Grunt (at) have ninostyle battle models,
+so we can duplicate and rename the model files to reuse them for Test 0 and Test 1.
+(The animation file from 60 FPS should override the animation file from Ninostyle Battle when both are active.)

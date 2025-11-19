@@ -1,0 +1,14 @@
+Label 1
+If Var[5][11] bitON 0 (else goto label 2)
+	If Var[5][18] == 0 (else goto label 2)
+		Deactivate the movability of the playable character
+		Disables access to the main menu
+		Execute script #3 in group cloud (No4) (priority 6/6) - Waiting for end of execution to continue
+		Bit 0 OFF in Var[5][11]
+		Battle mode: The party cannot escape the battle
+		Start battle #729
+		Activate the movability of the playable character
+		Enables access to the main menu
+Label 2
+Goto label 1
+Return

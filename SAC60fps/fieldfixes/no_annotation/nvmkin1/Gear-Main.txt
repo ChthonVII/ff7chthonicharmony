@@ -1,0 +1,19 @@
+Label 1
+If Var[5][13] == 1 (else goto label 2)
+	Execute script #3 in group M_ANIM (No15) (priority 2/6) - Waiting for end of execution to continue
+	Wait 1 frame
+Label 2
+If Var[5][13] == 1 (else goto label 3)
+	Execute script #4 in group M_ANIM (No15) (priority 2/6) - Waiting for end of execution to continue
+	Wait 1 frame
+Label 3
+If Var[5][13] == 1 (else goto label 4)
+	Execute script #5 in group M_ANIM (No15) (priority 2/6) - Waiting for end of execution to continue
+	Wait 1 frame
+Label 4
+If Var[5][13] == 1 (else goto label 5)
+	Execute script #6 in group M_ANIM (No15) (priority 2/6) - Waiting for end of execution to continue
+	Wait 1 frame
+Label 5
+Goto label 1
+Return

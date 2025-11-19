@@ -1,0 +1,11 @@
+Label 1
+If Var[5][8] < 60 (else goto label 2)
+	Var[5][8] = Var[5][8] + 1 (8 bit)
+	Direct the field model towards the group pal (No6)
+	Goto label 1
+Label 2
+Set the field model move speed: 4096
+Move field Model (X=-41, Y=-181)
+Direct the field model towards the group pal (No6)
+Play partially the animation #10 of the field model (first frame=0, last frame=4, speed=1)
+Return

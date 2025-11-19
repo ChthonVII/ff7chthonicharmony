@@ -1,0 +1,9 @@
+Execute script #4 in group id_lock (No2) (priority 6/6) - Waiting for end of execution to continue
+Execute script #8 in group id_lock (No2) (priority 6/6) - Waiting for end of execution to continue
+Execute script #7 in extern group kyak01 (No17) (priority 6/6) - Only if the script is not already running
+Execute script #7 in extern group kisya02 (No18) (priority 6/6) - Only if the script is not already running
+Execute script #7 in group kyak02 (No19) (priority 6/6) - Waiting for end of execution to continue
+Execute script #5 in group id_lock (No2) (priority 6/6) - Waiting for end of execution to continue
+Execute script #9 in group id_lock (No2) (priority 6/6) - Waiting for end of execution to continue
+Var[1][164] = Var[1][164] | 3 (8 bit)
+Return

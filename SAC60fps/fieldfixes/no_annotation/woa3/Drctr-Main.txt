@@ -1,0 +1,30 @@
+Retrieves the field ID number of the last field in Var[6][16]
+If Var[6][16] == 293 (else goto label 1)
+	Deactivate the movability of the playable character
+	Disables access to the main menu
+	Execute script #3 in group cloud (No14) (priority 6/6) - Waiting for end of execution to continue
+	Split party field (member 1: X=306, Y=-405, dir=160 ; member 2 : X=129, Y=-472, dir=112) (speed 32)
+	Execute script #4 in group cloud (No14) (priority 6/6) - Waiting for end of execution to continue
+	Execute script #3 in group tifa (No16) (priority 6/6) - Waiting for end of execution to continue
+	Execute script #5 in group cloud (No14) (priority 6/6) - Waiting for end of execution to continue
+	Execute script #4 in group tifa (No16) (priority 6/6) - Waiting for end of execution to continue
+	Execute script #6 in group cloud (No14) (priority 6/6) - Waiting for end of execution to continue
+	Execute script #5 in group tifa (No16) (priority 6/6) - Waiting for end of execution to continue
+	Execute script #7 in group cloud (No14) (priority 6/6) - Waiting for end of execution to continue
+	Join party field (speed=32)
+	Activate the movability of the playable character
+	Enables access to the main menu
+Label 1
+If Var[5][19] bitON 0 (else goto label 2)
+	If Var[5][7] == 0 (else goto label 2)
+		Deactivate the movability of the playable character
+		Disables access to the main menu
+		Execute script #8 in group cloud (No14) (priority 6/6) - Waiting for end of execution to continue
+		Bit 0 OFF in Var[5][19]
+		Battle mode: The party cannot escape the battle
+		Start battle #729
+		Activate the movability of the playable character
+		Enables access to the main menu
+Label 2
+Goto label 1
+Return

@@ -1,0 +1,45 @@
+Load the palette #4 in the position 0 (color count=128)
+Copy palette (sourcePal=0, targetPal=16, color count=128)
+Load the palette #2 in the position 32 (color count=256)
+Multiply RGB(34, 34, 34) on the colors in a palette (sourcePal=32, targetPal=48, color count=256)
+Load the position 48 in the palette #2 (color count=256)
+Load the position 48 in the palette #3 (color count=256)
+Label 1
+Var[5][15] = Var[5][12] (8 bit)
+Var[5][15] = Var[5][15] / 2 (8 bit)
+Multiply RGB(Var[5][15], Var[5][15], Var[5][15]) on the colors in a palette (sourcePal=0, targetPal=16, color count=127)
+Load the position 16 in the palette #4 (color count=128)
+Load the position 16 in the palette #5 (color count=128)
+Load the position 48 in the palette #2 (color count=256)
+Load the position 48 in the palette #3 (color count=256)
+If Var[5][13] == 0 (else goto label 5)
+	If Var[5][12] > 16 (else goto label 3)
+		Var[5][12] = Var[5][12] - 1 (8 bit)
+		Var[5][15] = Var[5][12] (8 bit)
+		Var[5][15] = Var[5][15] mod 16 (8 bit)
+		If Var[5][15] == 0 (else goto label 2)
+			Var[5][14] = Var[5][14] - 1 (8 bit)
+		Label 2
+		Wait 0 frame
+		Goto label 4
+	Label 3
+	Var[5][13] = 1 (8 bit)
+	Wait 60 frame
+	Label 4
+	Goto label 8
+Label 5
+If Var[5][12] < 148 (else goto label 7)
+	Var[5][12] = Var[5][12] + 1 (8 bit)
+	Var[5][15] = Var[5][12] (8 bit)
+	Var[5][15] = Var[5][15] mod 16 (8 bit)
+	If Var[5][15] == 0 (else goto label 6)
+		Var[5][14] = Var[5][14] + 1 (8 bit)
+	Label 6
+	Wait 0 frame
+	Goto label 8
+Label 7
+Var[5][13] = 0 (8 bit)
+Wait 4 frame
+Label 8
+Goto label 1
+Return

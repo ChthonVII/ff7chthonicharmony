@@ -1,0 +1,74 @@
+Animate the background layer #2 (Horizontally=640, Vertically=80)
+Set Z-deph for the background layer #2 (Z=466)
+Set Z-deph for the background layer #3 (Z=465)
+Wait 8 frame
+Label 1
+Var[5][7] = 0 (8 bit)
+Execute script #1 in group thund (No3) (priority 2/6) - Waiting for end of execution to continue
+Wait 10 frame
+Execute script #1 in group thund (No3) (priority 2/6) - Waiting for end of execution to continue
+Wait 10 frame
+Execute script #1 in group thund (No3) (priority 2/6) - Waiting for end of execution to continue
+Set random value to Var[5][0] (8-bit)
+Var[5][0] = Var[5][0] mod 16 (8 bit) // change modulus to 16
+Var[5][0] = Var[5][0] + 160 (8 bit) // doubled offset
+Label 2
+If Var[5][0] > 0 (else goto label 7)
+	If Var[5][1] < 64 (else goto label 5) // doubled
+		If Var[5][6] != 0 (else goto label 3)
+			Var[5][7] = 1 (8 bit)
+			Goto label 4
+		Label 3
+		Var[5][7] = 0 (8 bit)
+		Label 4
+		Goto label 6
+	Label 5
+	Var[5][7] = 0 (8 bit)
+	Label 6
+	Var[5][0] = Var[5][0] - 1 (8 bit)
+	Goto label 2
+Label 7
+Var[5][7] = 0 (8 bit)
+Execute script #1 in group thund (No3) (priority 2/6) - Waiting for end of execution to continue
+Wait 8 frame
+Execute script #1 in group thund (No3) (priority 2/6) - Waiting for end of execution to continue
+Set random value to Var[5][0] (8-bit)
+Var[5][0] = Var[5][0] mod 16 (8 bit) // change modulus to 16
+Var[5][0] = Var[5][0] + 120 (8 bit) // doubled offset
+Label 8
+If Var[5][0] > 0 (else goto label 13)
+	If Var[5][1] < 64 (else goto label 11) // doubled
+		If Var[5][6] != 0 (else goto label 9)
+			Var[5][7] = 1 (8 bit)
+			Goto label 10
+		Label 9
+		Var[5][7] = 0 (8 bit)
+		Label 10
+		Goto label 12
+	Label 11
+	Var[5][7] = 0 (8 bit)
+	Label 12
+	Var[5][0] = Var[5][0] - 1 (8 bit)
+	Goto label 8
+Label 13
+Set random value to Var[5][0] (8-bit)
+Var[5][0] = Var[5][0] mod 16 (8 bit) // change modulus to 16
+Var[5][0] = Var[5][0] + 120 (8 bit) // doubled offset
+Label 14
+If Var[5][0] > 0 (else goto label 19)
+	If Var[5][1] < 64 (else goto label 17) // doubled
+		If Var[5][6] != 0 (else goto label 15)
+			Var[5][7] = 1 (8 bit)
+			Goto label 16
+		Label 15
+		Var[5][7] = 0 (8 bit)
+		Label 16
+		Goto label 18
+	Label 17
+	Var[5][7] = 0 (8 bit)
+	Label 18
+	Var[5][0] = Var[5][0] - 1 (8 bit)
+	Goto label 14
+Label 19
+Goto label 1
+Return

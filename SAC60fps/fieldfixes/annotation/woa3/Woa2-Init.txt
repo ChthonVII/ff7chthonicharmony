@@ -1,0 +1,2 @@
+Var[5][6] = 16 (8 bit) // doubled
+Return

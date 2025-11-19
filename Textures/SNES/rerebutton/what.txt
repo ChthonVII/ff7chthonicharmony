@@ -1,0 +1,2 @@
+Since ESUI's more right than wrong if we treat it as already NTSC-J,
+we only want to convert the new buttons, then drop that on top of unconverted ESUI fonts.

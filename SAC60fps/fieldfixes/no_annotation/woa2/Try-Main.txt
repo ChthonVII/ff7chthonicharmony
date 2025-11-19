@@ -1,0 +1,17 @@
+Set Z-deph for the background layer #2 (Z=706)
+Set Z-deph for the background layer #3 (Z=705)
+Animate the background layer #2 (Horizontally=640, Vertically=80)
+Label 1
+If Var[5][12] < 64 (else goto label 4)
+	If Var[5][17] != 0 (else goto label 2)
+		Var[5][18] = 1 (8 bit)
+		Goto label 3
+	Label 2
+	Var[5][18] = 0 (8 bit)
+	Label 3
+	Goto label 5
+Label 4
+Var[5][18] = 0 (8 bit)
+Label 5
+Goto label 1
+Return

@@ -1,0 +1,26 @@
+Var[5][6] = 16 (8 bit)
+Animate the background layer #3 (Horizontally=-3840, Vertically=0)
+Wait 1 frame
+Animate the background layer #3 (Horizontally=0, Vertically=0)
+Label 1
+Animate the background layer #3 (Horizontally=320, Vertically=0)
+Label 2
+If Var[5][6] > 0 (else goto label 3)
+	Var[5][6] = Var[5][6] - 1 (8 bit)
+	Goto label 2
+Label 3
+Var[5][5] = 8 (8 bit)
+Label 4
+If Var[5][5] > 0 (else goto label 5)
+	Var[5][5] = Var[5][5] - 1 (8 bit)
+	Goto label 4
+Label 5
+Var[5][6] = 16 (8 bit)
+Var[5][5] = 60 (8 bit)
+Label 6
+If Var[5][5] > 0 (else goto label 7)
+	Var[5][5] = Var[5][5] - 1 (8 bit)
+	Goto label 6
+Label 7
+Animate the background layer #3 (Horizontally=-26880, Vertically=0)
+Goto label 1

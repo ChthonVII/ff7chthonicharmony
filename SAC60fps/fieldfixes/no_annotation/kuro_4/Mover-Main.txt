@@ -1,0 +1,16 @@
+Var[6][43] = 0 (16 bit)
+Var[6][35] = 0 (16 bit)
+Var[6][37] = 0 (16 bit)
+Var[6][39] = 0 (16 bit)
+Var[6][41] = 0 (16 bit)
+Label 1
+Var[6][43] = Var[6][43] + 1 (16 bit)
+Var[6][35] = ((Sinus(Var[6][43]) * 168) + 5) >> 12
+Var[6][37] = ((Cosinus(Var[6][43]) * 168) + 10) >> 12
+Var[6][39] = ((Sinus(Var[6][43]) * 501) + 5) >> 12
+Var[6][41] = ((Cosinus(Var[6][43]) * 501) + 10) >> 12
+If Var[6][43] > 4096 (else goto label 2)
+	Var[6][43] = 0 (16 bit)
+Label 2
+Goto label 1
+Return
