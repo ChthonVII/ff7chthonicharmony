@@ -7,6 +7,8 @@ Chthonic Harmony is a "compatibility pack" mod for Final Fantasy 7 + 7th Heaven.
 
 **Changelog**
 
+Version 1.1: Replaced EidosLogo FMV with higher quality version recovered from abandoned Team Avalanche file repository. Revised credits.
+
 Version 1.0: Initial release
 
 **Major Features at a Glance**
@@ -27,9 +29,9 @@ Version 1.0: Initial release
      - Prelude and Game Over upscales from AavockESUI by Aavock & Bonez.
      - Start Screen with Remake-style buster sword adapted by ChthonVII. Eight versions, selectable by SD or HD, with or without logo, and NTSC-J mode or uncorrected sRGB mode.
 - FMVs
-     - Traditional-style Eidos Logo from Grimmy's FMV Replacements. I'm unsure because it's not well documented, but the creator of this file might Shankifer. It appears to have been ripped/adapted from another Eidos game.
+     - Traditional-style Eidos Logo by BlitzNCS.
      - Traditional-style SquareSoft Logo from SYW Unified FMV by Satsuki Yatoshi.
-     - 30fps FMVs from SYW Unified FMV by Satsuki Yatoshi with retranslated subtitles from Shinra Archaeology Cut by Odysseus, TurquioseHammer, Thestrifeisrife, *et al*. (Video subtitling and reencoding done by ChthonVII.)
+     - 30fps FMVs from SYW Unified FMV by Satsuki Yatoshi with retranslated subtitles from Shinra Archaeology Cut by Odysseus, TurquioseHammer, *et al*. (Video subtitling and reencoding done by ChthonVII.)
           - Beta and demo versions of Opening FMV with SAC-translated text crawls.
           - Jenova E FMV with SAC-translated subtitles
           - Three versions of Ending2 FMV:
@@ -44,7 +46,7 @@ Version 1.0: Initial release
      - SNES-style button glyphs for SNES-style xinput controllers like 8bitdo. Requires controller support enabled in ESUI. (Any choice will do, since the glyphs will be overridden.) Eight versions, selectable by bright/gradient ESUI font, NTSC-J mode or uncorrected sRGB mode, and normal or inverted A ↔ B buttons. (Only the button glyphs are color corrected for NTSC-J mode, the font glyphs are not.) Glyphs by Nintendo, adapted by ChthonVII.
      - "Crystal" materia icons by ChthonVII. For NTSC-J mode or sRGB mode. Must be used with ESUI (because the sprite sheet is shared with other things). The choice of materia icons in ESUI still affects the slot graphics -- "shiny materia" is recommended.
 - SAC Fixes
-     - Harmonize 60/30 FPS Gameplay by Vertex2995, Obesebear, and Kaldrasha with Shinra Archaeology Cut by Odysseus, TurquioseHammer, Thestrifeisrife, *et al*.
+     - Harmonize 60/30 FPS Gameplay by Vertex2995, Obesebear, and Kaldrasha with Shinra Archaeology Cut by Odysseus, TurquioseHammer, *et al*.
           - 60FPS fixes for field maps with FPS-sensitive puzzles/animations:
                - Fix incorrect train animation in Train Graveyard (mds7st2).
                - Fix timing for Cloud and Barret turning to face other characters on Shinra Building Floor 70 (blin70_2).
