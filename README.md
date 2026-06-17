@@ -6,7 +6,7 @@ Chthonic Harmony is a "compatibility pack" mod for Final Fantasy 7 + 7th Heaven.
 - You must set Chthonic Harmony to the highest priority in 7th Heaven so its versions of these files override those of all other mods.
 
 **Changelog**
-
+Version 1.2: Edited and re-encoded EidosLogo FMV to exactly match original duration and use original audio. (Reduces frequency of [this very weird bug](https://github.com/julianxhokaxhiu/FFNx/issues/934).)
 Version 1.1: Replaced EidosLogo FMV with higher quality version recovered from abandoned Team Avalanche file repository. Revised credits.
 
 Version 1.0: Initial release
@@ -23,7 +23,7 @@ Version 1.0: Initial release
 
 **Content Details and Credits**
 
-- **Note:** Everything is optional. You can always choose to not use any feature of Chthonic Harmony that you don't like.
+- **Note:** Everything is optional. You can always choose to not use any feature of Chthonic Harmony that you don't like. Deactivated features are *completely* off and will not conflict with other mods in any way.
 - **Note:** Assets that specify "NTSC-J mode" mean the revised NTSC-J mode that is presently only available in [this FFNx test build](https://github.com/ChthonVII/FFNx-NTSCJ/releases).
 - Backgrounds
      - Prelude and Game Over upscales from AavockESUI by Aavock & Bonez.

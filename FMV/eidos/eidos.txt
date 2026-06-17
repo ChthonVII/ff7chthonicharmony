@@ -1,2 +1,11 @@
 From the abandoned Team Avalanche file repo:
 https://docs.google.com/leaf?id=0B-QUzZtNNZa5YTNkN2M0MjItODJjNi00ZDIxLThmNDQtZmI4YzhlMmE4MGVl&hl=en
+
+But, this bug exists: https://github.com/julianxhokaxhiu/FFNx/issues/934
+So it needs edited and re-encoded:
+	Scale to 1280x960
+	Increase length to 304 frames (at 30 fps)
+	Use original audio.
+		Resample to 44.1kHz (and not 48kHz) to keep exactly same duration down to the sample.
+		Use ogg instead of opus to avoid automatic resampling.
+See ediosfix.vpy
